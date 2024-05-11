@@ -1,0 +1,43 @@
+:root {
+  --color-base-bg: #fff;
+  --color-base-text: #333;
+  --border-btn: #333;
+  --color-btn-bg: #fff;
+}
+
+:root.dark {
+  --color-base-bg: #333;
+  --color-base-text: #fff;
+  --border-btn: #fff;
+  --color-btn-bg: #333;
+}
+
+body {
+  background-color: var(--color-base-bg);
+  color: var(--color-base-text);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.theme-button {
+  background-color: var(--color-base-bg);
+  color: var(--color-base-text);
+  border: 1px solid var(--border-btn);
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 35%;
+}

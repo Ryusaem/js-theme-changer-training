@@ -48,6 +48,20 @@ This is just a repository for me to train myself to learn how to change theme
 
 ### What I learned
 
+- to push a content (which possess a "flex" parent) at the extrem bottom (like a footer):
+  - set an height to your parent (.container) of 100vh
+  - set a "margin-top: auto" to your "footer"
+
+```css
+.container {
+  height: 100vh;
+}
+
+footer {
+  margin-top: auto;
+}
+```
+
 ### Continued development
 
 - Be better at crafting algorithm. Be better a think in a logical way the step needed to be taken to do any project.

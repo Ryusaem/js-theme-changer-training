@@ -42,6 +42,25 @@ This is just a repository for me to train myself to learn how to change theme
 
 - Algorithm:
 
+  - Initialize Variables:
+
+    - Retrieve and store the theme name element, toggle button, and root element of the HTML.
+    - Get the current theme from localStorage if available; otherwise, set to "light".
+
+  - Set Initial Theme:
+
+    - Display the current theme in the theme name element.
+    - Add the current theme class to the root element for initial styling.
+
+  - Event Listener for Theme Change:
+
+    - Attach a click event listener to the toggle button.
+    - On click, determine the new theme (toggle between "light" and "dark").
+    - Update the display text to the new theme.
+    - Replace the theme class on the root element with the new theme.
+    - Save the new theme to localStorage.
+    - Update the local current theme variable.
+
 ### Built with
 
 - HTML
@@ -196,30 +215,20 @@ document.querySelector(".theme-toggle").addEventListener("click", setTheme);
 - classList.replace("old", "new") replace an old (or current) class with a new one, which is very useful for switching theme in this probjet.
 - classList.toggle('new') will add the class "new" if it is not present (and return True), and delete it if it here (and return False), which is also very useful, but I choose the .replace one because it is more practical for me.
 
-### Continued development - Be better at crafting algorithm. Be better a think
+### Continued development
 
-in a logical way the step needed to be taken to do any project. - Ankify the
-most complicated things like the process of switching themes - Read
-more...Study more...Practice more ## Useful resources [The Odin
-Project](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-custom-properties)
+- Be better at crafting algorithm. Be better a think
+- Read more, practice more.
 
-- For me they possess the best course and the best content to become a master
-  at web development. ## Author Github - [@Ryusaem](https://github.com/Ryusaem)
-- Linkedin - [@sambath-meas](https://www.linkedin.com/in/sambath-meas) -
-  Coursera - [@sambath-meas](https://www.coursera.org/learner/sambath-meas) -
-  Twitter - [@RyuBraveheart](https://twitter.com/RyuBraveheart) - Frontend
-  Mentor - [@Ryusaem](https://www.frontendmentor.io/profile/Ryusaem) - CodeWars
-- [@Ryusaem](https://www.codewars.com/users/Ryusaem)
-</div>
+## Useful resources
 
-```
+- [The Odin Project](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-custom-properties) - For me they possess the best course and the best content to become a master
+  at web development.
 
-```
+## Author
 
-```
-
-```
-
-```
-
-```
+Github - [@Ryusaem](https://github.com/Ryusaem)
+Linkedin - [@sambath-meas](https://www.linkedin.com/in/sambath-meas) -
+Coursera - [@sambath-meas](https://www.coursera.org/learner/sambath-meas) -
+Twitter - [@RyuBraveheart](https://twitter.com/RyuBraveheart) - Frontend
+Mentor - [@Ryusaem](https://www.frontendmentor.io/profile/Ryusaem) CodeWars - [@Ryusaem](https://www.codewars.com/users/Ryusaem)
